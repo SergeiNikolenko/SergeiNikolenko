@@ -1,41 +1,60 @@
-# Simple and beauty portfolio
-This simple and clean portfolio template was developed in HTML, CSS, and JavaScript. This portfolio could be posted via GitHub Pages without any issues.
+# Sergei Nikolenko
 
-## How you can use it
-Basically, there are two ways of using this template. And it depends if you know HTML or not.
+I am a 22-year-old citizen of the Russian Federation living in Moscow. I am currently pursuing my degree in Medicinal Chemistry at the D. Mendeleev University of Chemical Technology of Russia.
 
-If you are familiar with HTML you can use this template as a constructor brick and build your own page as you would like.
+📞 +7 (925) 057-23-88 | 📧 Nikolenko.Sergei@icloud.com
 
-For those of you who don't familiar with HTML, I've prepared a few already-made pages that you can find in the `example` folder.
+## Education 🎓
 
-When you'll choose which page you would like to use, you need to follow a few easy steps:
+**Higher Education**: D. Mendeleev University of Chemical Technology of Russia, 2018–2023.
+- Faculty of Fundamental and Applied Chemistry
+- Profile: Medicinal Chemistry, diploma with teaching rights
+- Average grade: 83
 
-* Copy the page that you like to the rood directory of this template and rename it to `index.html`
-  > Pay attention! You might need to remove or rename existing index.html
-* Adjust and edit text so that this page will fit your needs
+## Work Experience 💼
 
-And that's it.
+**Internship at In Silico**, ongoing.  
+During my internship at In Silico medicine, I gain experience in the Chemistry42 department. My supervisor helps me explore Medicinal and Computational Chemistry and informs me about current topics and trends in this field.
 
-Now you can upload your fresh `index.html` and `assets` folder to the GitHub Pages or whatever hosting you prefer. 
+## Research Activities 🔬
 
----
+1. **Molecular Medicine Laboratory, FNKC FHM**  
+Participated in molecular medicine research, DNA isolation, and qRT-PCR for gene expression analysis.
 
-# Простое и красивое портфолио
-Этот простой и понятный шаблон портфолио был разработан с использованием HTML, CSS и JavaScript. Это портфолио может быть размещено на страницах GitHub без каких-либо проблем.
+2. **Skoltech Laboratory of Industry-oriented Materials Search**  
+Conducted research in the calculation of structure and properties of molecular co-crystals. I used calculation packages like QE, LAMMP, the USPEX algorithm, and visualized and processed data using matplotlib and VESTA tools. I also wrote scripts using DeepMD and ACE tools, and worked on a cluster.
 
-## Как вы можете это использовать
-По сути, есть два способа использования этого шаблона. Выбор способа зависит от того, знаете ли вы HTML или нет.
+3. **Structural Bioinformatics Laboratory, V.N. Orekhovich Institute of Biomedical Chemistry**  
+I am currently researching estradiol binding to the estrogen receptor as a potential carrier of target groups using molecular docking and molecular dynamics methods for my specialist degree in Medicinal Chemistry. I use tools such as AutodockVina, Smina, VinaGPU, Gromacs, MMGBSA, and Prolif.
 
-Если вы знакомы с HTML, вы можете использовать этот шаблон в качестве конструктора и создать свою собственную страницу по своему усмотрению.
+## Personal Qualities 👍
 
-Для тех из вас, кто не знаком с HTML, я подготовил несколько уже готовых страниц, которые вы можете найти в папке «example».
+- Possess a high level of self-education and the ability to deeply study various disciplines:
+  - Molecular Biology
+  - Medicinal Chemistry
+  - Biochemistry
+  - Chemoinformatics
+- Compiled an extensive collection of flashcards for efficient memorization and deep understanding of the material.
+- Utilize systematic self-organization methods, such as:
+  - Cognitive maps (including in learning)
+  - Pomodoro
+  - Creating training programs
+- Able to build long-term plans and follow them, as in the case of preparing for a marathon for a couple of years.
+- Possess a high level of stress resistance, which allowed me to successfully work in diverse age groups and perform routine processes.
 
-Когда вы выберете, какую страницу вы хотели бы использовать, вам нужно выполнить несколько простых шагов:
+## Skills and Hobbies 🧠
 
-* Скопируйте понравившуюся страницу в корневой каталог этого шаблона и переименуйте ее в `index.html`
-  > Обратите внимание! Возможно, вам придется удалить или переименовать существующий index.html.
-* Отредактируйте текст так, чтобы эта страница соответствовала вашим потребностям
-
-Вот и все.
-
-Теперь вы можете загрузить новый index.html и папку с ресурсами на Github Pages или любой другой хостинг, который вы предпочитаете.
+- English language (including technical) - upper-intermediate level, continue to improve with a personal tutor.
+- Quickly adapt to new software and use tools such as:
+  - QuantumESPRESSO
+  - OpenBable
+  - VESTA
+  - GROMACS
+  - AutoDock Vina
+  - swissADME
+  - PyMOL
+  - ADMETlab 2.0
+- Proficient in Python programming and confidently use Linux OS, including command line and basic utilities.
+- Avid runner 🏃, completed a marathon, and plan to continue.
+- Read 📚 or listen to 1–2 books per week.
+- Possess touch typing skill in Russian (top 276 cpm) and increasing typing speed in English.
