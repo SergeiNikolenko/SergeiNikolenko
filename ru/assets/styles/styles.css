@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/***
+    The new CSS reset - version 1.7.3 (last updated 7.8.2022)
+    GitHub page: https://github.com/elad2412/the-new-css-reset
+***/
+
+/*
+    Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property
+    - The "symbol *" part is to solve Firefox SVG sprite bug
+ */
+*:where(:not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)) {
+    all: unset;
+    display: revert;
+}
+
+/* Preferred box-sizing value */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Reapply the pointer cursor for anchor tags */
+a, button {
+    cursor: revert;
+}
+
+/* Remove list styles (bullets/numbers) */
+ol, ul, menu {
+    list-style: none;
+}
+
+/* For images to not be able to exceed their container */
+img {
+    max-width: 100%;
+}
+
+/* removes spacing between cells in tables */
+table {
+    border-collapse: collapse;
+}
+
+/* Safari - solving issue when using user-select:none on the <body> text input doesn't working */
+input, textarea {
+    -webkit-user-select: auto;
+}
+
+/* revert the 'white-space' property for textarea elements on Safari */
+textarea {
+    white-space: revert;
+}
+
+/* minimum style to allow to style meter element */
+meter {
+    -webkit-appearance: revert;
+    appearance: revert;
+}
+
+/* reset default text opacity of input placeholder */
+::placeholder {
+    color: unset;
+}
+
+/* fix the feature of 'hidden' attribute.
+   display:revert; revert to element instead of attribute */
+:where([hidden]) {
+    display: none;
+}
+
+/* revert for bug in Chromium browsers
+   - fix for the content editable attribute will work properly.
+   - webkit-user-select: auto; added for Safari in case of using user-select:none on wrapper element*/
+:where([contenteditable]:not([contenteditable="false"])) {
+    -moz-user-modify: read-write;
+    -webkit-user-modify: read-write;
+    overflow-wrap: break-word;
+    -webkit-line-break: after-white-space;
+    -webkit-user-select: auto;
+}
+
+/* apply back the draggable feature - exist only in Chromium and Safari */
+:where([draggable="true"]) {
+    -webkit-user-drag: element;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333131;
+}
+
+a {
+    color: black;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: #c8cbcd;
+    }
+
+    a {
+        color: #fff;
+    }
+
+    .content__social-item img,
+    .footer__social-item img{
+        filter: invert(1);
+    }
+}
+
+.main {
+    margin: auto;
+    width: 47.5rem;
+}
+
+.content__hello {
+    display: flex;
+    margin-top: 4.2rem;
+    margin-bottom: 5rem;
+    font-size: 28px;
+    line-height: 2.8rem;
+}
+
+.content__hello-img {
+    width: 142px;
+    height: 142px;
+    min-width: 142px;
+    border-radius: 50%;
+    border: 3px solid silver;
+}
+
+.content__hello-text {
+    margin-left: 2.2rem;
+    line-height: 2.7rem;
+    margin-top: 5px;
+}
+
+.content__name a {
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+.content__description {
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+.header {
+    display: flex;
+    justify-content: end;
+    margin-top: 0.2rem;
+}
+.header span {
+    margin-left: 3px;
+}
+
+.content__social {
+    display: flex;
+    max-width: 36rem;
+    font-size: 18px;
+    padding-top: 5px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    flex: 1 1 0%;
+    -webkit-box-pack: start;
+    justify-content: space-between;
+}
+.content__social-item {
+    display: flex;
+    align-items: center;
+}
+.content__social-item img {
+    width: 22px;
+    height: 22px;
+    margin-right: 4px;
+}
+
+.content__about-header {
+    font-size: 2.4rem;
+    margin-bottom: 1.4rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+}
+
+.content__subheader {
+    font-size: 1.4rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+}
+
+.content__main-item {
+    display: flex;
+    line-height: 1.8rem;
+    margin-bottom: 1.8rem;
+}
+.content__main-item.project img {
+    max-width: 300px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 25px;
+}
+
+.main-item__description img {
+    border-radius: 25px;
+}
+
+.project .main-item__title {
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.project .main-item__links span {
+    margin-right: 4px;
+}
+
+.project .main-item__description {
+    font-weight: 100;
+    margin-top: 1rem;
+}
+
+.project .main-item__subdescription {
+    font-weight: 200;
+    margin-top: 1rem;
+}
+.project .main-item__subdescription span {
+    font-weight: 400;
+}
+
+.post .main-item__title{
+    font-size: 1.48rem;
+    line-height: 2rem;
+    font-weight: 500;
+    letter-spacing: .05rem;
+}
+
+.post .main-item__title a{
+    box-shadow: none;
+    letter-spacing: 0.03em;
+}
+
+.post .main-item__date {
+    display: inline-block;
+    font-size: .94rem;
+    font-weight: 700;
+    line-height: 1.55rem;
+}
+
+.post .main-item__description {
+    line-height: 1.8rem;
+    margin-top: -0.2rem;
+    margin-bottom: 0.8rem;
+}
+
+.footer {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__social-item img {
+    width: 22px;
+    height: 22px;
+    margin-right: 4px;
+}
