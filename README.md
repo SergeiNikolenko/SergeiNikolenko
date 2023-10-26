@@ -1,4 +1,4 @@
-# Sergei Nikolenko (Николенко Сергей Альбертович)
+# Sergei Nikolenko
 
 I am a 23-year-old citizen of the Russian Federation currently residing in Moscow. I have completed my Master's degree in Medicinal Chemistry at the D. Mendeleev University of Chemical Technology of Russia.
 
