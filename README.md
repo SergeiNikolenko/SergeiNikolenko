@@ -1,12 +1,12 @@
 # Sergei Nikolenko
 
-I am a Medicinical Chemist. I have completed my Master's degree in Medicinal Chemistry at the D. Mendeleev University of Chemical Technology of Russia.
+I am a Medicinical Chemist. I have completed my Master's degree in Medicinal Chemistry.
 
 📧 Nikolenko.Sergei@icloud.com
 
 ## Education 🎓
 
-**Higher Education**: Master's in Medicinal Chemistry, D. Mendeleev University of Chemical Technology of Russia, 2018–2023.
+**Higher Education**: Master's in Medicinal Chemistry
 - Faculty: Fundamental and Applied Chemistry
 - Specialization: Medicinal Chemistry, with diploma granting teaching rights
 
@@ -14,7 +14,7 @@ I am a Medicinical Chemist. I have completed my Master's degree in Medicinal Che
 ## Work Experience 💼
 
 ### Medicinal Chemist Intern at Insilico Medicine, 2021 - Present  
-Working under the direct supervision of Yan Ivanenkov, the head of the medicinal chemistry department and Chief Scientific Advisor at Insilico Medicine. My role involves the development and testing of algorithms for Chemistry42, a generative platform specializing in virtual drug screening.
+Working under the direct supervision of -, the head of the medicinal chemistry department and Chief Scientific Advisor at Insilico Medicine. My role involves the development and testing of algorithms for Chemistry42, a generative platform specializing in virtual drug screening.
 
 #### Tools & Technologies:
 - RDKit
