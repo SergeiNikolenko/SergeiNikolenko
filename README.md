@@ -1,8 +1,8 @@
 # Sergei Nikolenko
 
-I am a 23-year-old citizen of the Russian Federation currently residing in Moscow. I have completed my Master's degree in Medicinal Chemistry at the D. Mendeleev University of Chemical Technology of Russia.
+I am a Medicinical Chemist. I have completed my Master's degree in Medicinal Chemistry at the D. Mendeleev University of Chemical Technology of Russia.
 
-[🌐 Site](https://sergeinikolenko.github.io/SergeiNikolenko/) | [📞 +7 (925) 057-23-88](https://t.me/Nikolenko_Sergei) | 📧 Nikolenko.Sergei@icloud.com
+📧 Nikolenko.Sergei@icloud.com
 
 ## Education 🎓
 
