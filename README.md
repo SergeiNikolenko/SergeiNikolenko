@@ -1,57 +1,58 @@
 # Sergei Nikolenko
 
-I am a Medicinical Chemist. I have completed my Master's degree in Medicinal Chemistry.
-
-📧 Nikolenko.Sergei@icloud.com
-
-## Education 🎓
-
-**Higher Education**: Master's in Medicinal Chemistry
-- Faculty: Fundamental and Applied Chemistry
-- Specialization: Medicinal Chemistry, with diploma granting teaching rights
-
+📧 [Nikolenko.Sergei@icloud.com](mailto:Nikolenko.Sergei@icloud.com)  
+[🔗 Telegram](https://t.me/Nikolenko_Sergei)
 
 ## Work Experience 💼
 
-### Medicinal Chemist Intern at Insilico Medicine, 2021 - Present  
-Working under the direct supervision of -, the head of the medicinal chemistry department and Chief Scientific Advisor at Insilico Medicine. My role involves the development and testing of algorithms for Chemistry42, a generative platform specializing in virtual drug screening.
+### Research Scientist
+**Intelligent Chemical Design Laboratory, Moscow State University Institute of AI**  
+*(2023 - Present)*
 
-#### Tools & Technologies:
-- RDKit
-- MDTraj
-- NumPy
-- BioPython
-- scikit-learn
-- matplotlib
-- seaborn
+- Research on small molecule local reactivity, involving database creation and graph convolutional networks for predicting local reactivity using Fukui indices and CDD. Utilized **Python, TensorFlow, PyTorch, Chemprop**, quantum chemistry packages **MOPAC, ORCA**, and worked on the Lomonosov-2 cluster with **SLURM** and **bash scripts**.
 
-## Research Activities 🔬
+### Chemoinformatician
+**Syntelly**  
+*(2023 - Present)*
 
-1. **Molecular Medicine Laboratory, FNKC FHM**  
-Worked as a research associate focusing on DNA isolation and qRT-PCR for gene expression analysis.
+- Focused on cheminformatics methods for AI models predicting small molecule properties, especially blood-brain barrier penetration, using **Python, NumPy, Pandas, sklearn, XBGoost**, and **RDKit**.
 
-2. **Skoltech Laboratory of Industry-oriented Materials Search, 2021–2022**  
-Conducted research on the calculation of structure and properties of molecular co-crystals, utilizing molecular modeling systems like QE, LAMMP, USPEX, and scripting with matplotlib DeepMD, ACE. Projects executed on cloud clusters of international partners.
+### Research Scientist
+**Insilico Medicine**  
+*(2021 - 2023)*
 
-3. **Structural Bioinformatics Laboratory, V.N. Orekhovich Institute of Biomedical Chemistry, 2022–2023**  
-Research focused on receptor/ligand interactions using molecular docking and dynamics methods. Tools used include AutodockVina, Smina, VinaGPU, GROMACS, MMGBSA, and Prolif.
+- Interned in medicinal chemistry and CADD, contributing to Chemistry42 platform's algorithms for virtual drug screening.
+
+## Scientific Activity
+
+### Industrial-Oriented Materials Search Laboratory, Skoltech
+*(2020 – 2023)*
+
+- Researched molecular co-crystals and metal alloys, employing **QE, LAMMPS, USPEX, VASP**, visualization with **VESTA, OVITO**, and scripting with **DeepMD, ACE** on clusters using **slurm, screen**.
+
+### Structural Bioinformatics Laboratory, V.N. Orekhovich Institute of Biomedical Chemistry
+*(2022 – 2023)*
+
+- Investigated receptor/ligand interactions using molecular docking and dynamics with tools like **AutodockVina, Smina, VinaGPU, GROMACS, MMGBSA, Prolif**.
+
+## Education 🎓
+
+### Specialist in Medicinal Chemistry
+*Mendeleev University of Chemical Technology*  
+*(2018 – 2023)*
+
+- Specialized in Fundamental and Applied Chemistry, Medicinal Chemistry, with a diploma granting teaching rights.
 
 ## Skills and Hobbies 🧠
 
-- **Languages**: Upper-Intermediate level of English with a focus on technical vocabulary. Actively engage in projects with international colleagues. Preparing for the TOEFL exam.
-- **Programming**: Beginner-level Python (see GitHub for details), advanced user of Linux OS and Bash shell; experience in deploying projects on remote servers.
-- **Software & Tools**:
-  - GROMACS
-  - AutoDock Vina
-  - swissADME
-  - PyMOL
-  - ADMETlab 2.0
-  - MM/GBSA
-- **Sports**: Enjoy playing volleyball with friends, an avid runner, and marathon participant.
-- **Typing**: Proficient in touch typing in Russian and improving speed in English.
+### English Language
+- Upper-Intermediate level with a focus on technical terminology, actively engaging with international colleagues.
 
-## Personal Qualities 👍
+### Hobbies
+- Volleyball, running, marathons, and Kaggle competitions (Expert level).
 
-- Highly adaptable and quick at learning new software and tools.
-- Excellent stress management and the ability to work effectively in diverse teams.
+## Links 🔗
 
+- [Telegram: Nikolenko_Sergei](https://t.me/Nikolenko_Sergei)
+- [GitHub: SergeiNikolenko](https://github.com/SergeiNikolenko)
+- [Kaggle: Nikolenko_Sergei | Expert](https://www.kaggle.com/nikolenkosergei)
