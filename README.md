@@ -1,6 +1,9 @@
 # Sergei Nikolenko
 
-👋 Hi there! I'm Sergei Nikolenko, a medicinal chemist deeply involved in computer-aided drug design. My passion lies in advancing molecular modeling and cheminformatics, using innovative technology to tackle intricate issues in the fields of medicine and pharmacology. Below, you'll find a snapshot of my skills and key projects:
+👋 Hi there! I'm Sergei Nikolenko, a medicinal chemist deeply involved in computer-aided drug design. My passion lies in advancing molecular modeling and cheminformatics, using innovative technology to tackle intricate issues in the fields of medicine and pharmacology.
+
+[Explore my projects](https://sergeinikolenko.github.io/SergeiNikolenko/) <br>
+[Review my resume](https://nikolenko-sergei.notion.site/4056815b4766442895d3a706eaacadad?pvs=74)
 
 ## 🛠 Tech Stack
 
