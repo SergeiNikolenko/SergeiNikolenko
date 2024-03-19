@@ -1,58 +1,52 @@
 # Sergei Nikolenko
 
-📧 [Nikolenko.Sergei@icloud.com](mailto:Nikolenko.Sergei@icloud.com)  
-[🔗 Telegram](https://t.me/Nikolenko_Sergei)
+👋 Hi there! I'm Sergei Nikolenko, a medicinal chemist deeply involved in computer-aided drug design. My passion lies in advancing molecular modeling and cheminformatics, using innovative technology to tackle intricate issues in the fields of medicine and pharmacology. Below, you'll find a snapshot of my skills and key projects:
 
-## Work Experience 💼
+## 🛠 Tech Stack
 
-### Research Scientist
-**Intelligent Chemical Design Laboratory, Moscow State University Institute of AI**  
-*(2023 - Present)*
+My technical expertise spans a wide array of tools and programming languages, enabling me to address diverse challenges in my field:
 
-- Research on small molecule local reactivity, involving database creation and graph convolutional networks for predicting local reactivity using Fukui indices and CDD. Utilized **Python, TensorFlow, PyTorch, Chemprop**, quantum chemistry packages **MOPAC, ORCA**, and worked on the Lomonosov-2 cluster with **SLURM** and **bash scripts**.
+- **Programming Languages:**
+  - **Python:** A versatile tool for data analysis, molecular modeling, and machine learning tasks.
+- **Molecular Modeling & Chemistry:**
+  - **RDKit, Chemprop, ACE, DeepMD, BioPython**
+  - **Molecular Dynamics:** GROMACS, LAMMPS, Vina
+  - **Quantum Chemistry:** MOPAC, ORCA, VASP
+- **Machine Learning & Data Science:**
+  - **Frameworks:** PyTorch, TensorFlow
+  - **Libraries:** scikit-learn, Cat/XGBoost, cuml, cudf
+  - **Data Handling:** NumPy, Pandas
+- **Utilities:**
+  - **Job Scheduling:** SLURM, screen
+  - **Scripting:** Bash scripts for streamlining processes
 
-### Chemoinformatician
-**Syntelly**  
-*(2023 - Present)*
+## 📚 Highlight Projects
 
-- Focused on cheminformatics methods for AI models predicting small molecule properties, especially blood-brain barrier penetration, using **Python, NumPy, Pandas, sklearn, XBGoost**, and **RDKit**.
+My career has been marked by numerous projects that not only posed significant challenges but also contributed to the field's advancement:
 
-### Research Scientist
-**Insilico Medicine**  
-*(2021 - 2023)*
+- **Molecular Reactivity Prediction:**
+  - Pioneered the use of graph convolutional networks for the prediction of chemical reactivity and Fukui indices.
+- **Blood-Brain Barrier Penetration:**
+  - Applied cheminformatics techniques to predict the ability of small molecules to penetrate the BBB, a critical factor in CNS drug development.
 
-- Interned in medicinal chemistry and CADD, contributing to Chemistry42 platform's algorithms for virtual drug screening.
+Additionally, my scientific endeavors include:
 
-## Scientific Activity
+- **Material Search & Structural Bioinformatics:**
+  - Conducted research on the structure and properties of molecular co-crystals and metal alloys, employing advanced molecular modeling systems.
+  - Investigated receptor/ligand interactions through molecular docking and dynamics, contributing valuable insights to the field.
 
-### Industrial-Oriented Materials Search Laboratory, Skoltech
-*(2020 – 2023)*
+## 💬 Personal Development & Community Engagement
 
-- Researched molecular co-crystals and metal alloys, employing **QE, LAMMPS, USPEX, VASP**, visualization with **VESTA, OVITO**, and scripting with **DeepMD, ACE** on clusters using **slurm, screen**.
+I am a proactive member of the scientific community, dedicated to continuous learning and knowledge sharing:
 
-### Structural Bioinformatics Laboratory, V.N. Orekhovich Institute of Biomedical Chemistry
-*(2022 – 2023)*
+- **Languages:** Fluent in English (Upper-Intermediate) and Russian (native), enabling effective international collaboration.
+- **Kaggle:** Achieved Expert status through active participation in data science competitions, honing my skills in real-world challenges. [View my Kaggle profile](https://www.kaggle.com/nikolenkosergei)
 
-- Investigated receptor/ligand interactions using molecular docking and dynamics with tools like **AutodockVina, Smina, VinaGPU, GROMACS, MMGBSA, Prolif**.
+## 🌐 Connect With Me
 
-## Education 🎓
+Interested in my work or considering collaboration? Here's how you can reach me:
 
-### Specialist in Medicinal Chemistry
-*Mendeleev University of Chemical Technology*  
-*(2018 – 2023)*
+- **Project Portfolio:** [Explore my projects](https://sergeinikolenko.github.io/SergeiNikolenko/)
+- **Detailed Resume:** [Review my resume](https://nikolenko-sergei.notion.site/4056815b4766442895d3a706eaacadad?pvs=74)
 
-- Specialized in Fundamental and Applied Chemistry, Medicinal Chemistry, with a diploma granting teaching rights.
-
-## Skills and Hobbies 🧠
-
-### English Language
-- Upper-Intermediate level with a focus on technical terminology, actively engaging with international colleagues.
-
-### Hobbies
-- Volleyball, running, marathons, and Kaggle competitions (Expert level).
-
-## Links 🔗
-
-- [Telegram: Nikolenko_Sergei](https://t.me/Nikolenko_Sergei)
-- [GitHub: SergeiNikolenko](https://github.com/SergeiNikolenko)
-- [Kaggle: Nikolenko_Sergei | Expert](https://www.kaggle.com/nikolenkosergei)
+I'm always eager to explore new opportunities and ideas within medicinal chemistry and related domains. Feel free to get in touch!
