@@ -1,4 +1,4 @@
-# Sergei Nikolenko
+# Sergei Nikolenko :octocat:
 
 📧 [Nikolenko.Sergei@icloud.com](mailto:Nikolenko.Sergei@icloud.com)  
 [🔗 Telegram](https://t.me/Nikolenko_Sergei)
