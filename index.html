@@ -21,19 +21,19 @@
                 <img class="content__hello-img" src="assets/img/avatar.png" alt="Avatar">
                 <div class="content__hello-text">
                     <span class="content__name">
-                        <a href="/"> Hey, I'm Sergei Nikolenko.</a>
+                        <a href="/">Hey, I'm Sergei Nikolenko.</a>
                     </span>
-                    <span class="content__description">Medical chemist based. Welcome to my professional portfolio and resume.</span>
+                    <span class="content__description">As a medical chemist and cheminformatician, this page showcases a selection of my projects.</span>
                     <nav class="content__social">
                         <a href="https://orcid.org/0000-0003-1150-9390" target="_blank" class="content__social-item">
                             <img src="assets/img/icons/ORCID.png" alt="ORCID">
                             <span>ORCID</span>
                         </a>
-                        <a href="null" target="_blank" class="content__social-item">
+                        <a href="https://www.linkedin.com/in/nikolenkosergeia/" target="_blank" class="content__social-item">
                             <img src="assets/img/icons/in.svg" alt="LinkedIn">
                             <span>LinkedIn</span>
                         </a>
-                        <a href="n" target="_blank" class="content__social-item">
+                        <a href="https://t.me/Nikolenko_Sergei" target="_blank" class="content__social-item">
                             <img src="assets/img/icons/telegram.svg" alt="Telegram">
                             <span>Telegram</span>
                         </a>
@@ -43,11 +43,14 @@
             <div class="content__main">
                 <div class="content__main-item">
                     <div class="main-item__description">
-                        <p>With a strong background in medical chemistry, I've gained valuable experience in research, analysis, and development. My expertise lies in drug discovery, molecular modeling, and computational chemistry.</p>
-                        <p>For a detailed overview of my education, work experience, research activities, personal qualities, and skills, please check <a href="/resume.pdf">my resume</a>.</p>
+                        <p>As a Research Scientist with a deep expertise in chemoinformatics and intelligent chemical design, I focus on advancing the field through innovative research in small molecule reactivity and cheminformatics methods for AI models. With a solid foundation in medical and medicinal chemistry, I've contributed to diverse projects ranging from molecular co-crystals research to receptor/ligand interactions analysis, utilizing advanced computational tools and algorithms.</p>
+                        <p>For a detailed overview of my education, work experience, research activities, personal qualities, and skills, please check <a href="https://nikolenko-sergei.notion.site/4056815b4766442895d3a706eaacadad?pvs=74">my resume</a>.</p>
                     </div>
                 </div>
                 <h1 class="content__about-header">Projects</h1>
+                <div class="content__main-item project">
+                </div>
+                
                 <div class="content__main-item project">
                     <a data-fslightbox href="assets/img/immune_peptide_project.png">
                         <img src="assets/img/immune_peptide_project.png" alt="Immune Peptide Generation">
@@ -61,10 +64,47 @@
                         </div>
                         <div class="main-item__subdescription">
                             <p><span>Stack:</span> Python, AlphaFold2, MDTraj, NumPy, BioPython, Skikit-Learn</p>
-                            <p class="main-item__links"><a href="https://github.com/sergeinikolenko/ImmunoPeptideDesigner"><span>Source Code</span></a><span>
+                            <p class="main-item__links"><a href="https://github.com/sergeinikolenko/ImmunoPeptideDesigner"><span>Source Code</span></a></p>
                         </div>
                     </div>
                 </div>
+
+                <div class="content__main-item project">
+                    <a data-fslightbox href="assets/img/computational_chemistry_internship.png">
+                        <img src="assets/img/computational_chemistry_internship.png" alt="Internship Project in Computational Chemistry">
+                    </a>
+                    <div>
+                        <div class="main-item__title">
+                            <a href="https://github.com/SergeiNikolenko/ComputationalChemistryInternship"><span>Internship Project in Computational Chemistry</span></a>
+                        </div>
+                        <div class="main-item__description">
+                            <p>TThis project offers computational chemistry interns tasks like molecule parameterization with OpenFF for Gromacs and ligand preparation for Autodock Vina docking. Focused on tool automation, it assesses interns' coding and documentation skills without requiring full program development.</p>
+                        </div>
+                        <div class="main-item__subdescription">
+                            <p><span>Stack:</span> Python, RDKit, openff-toolkit, Meeko</p>
+                            <p class="main-item__links"><a href="https://github.com/SergeiNikolenko/ComputationalChemistryInternship"><span>Source Code</span></a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content__main-item project">
+                    <a data-fslightbox href="assets/img/gero.png">
+                        <img src="assets/img/gero.png" alt="Geropharm Test Case">
+                    </a>
+                    <div>
+                        <div class="main-item__title">
+                            <a href="https://github.com/SergeiNikolenko/geropharm-test_case"><span>Geropharm Test Case Project</span></a>
+                        </div>
+                        <div class="main-item__description">
+                            <p>This project delves into drug discovery for Type 2 Diabetes Mellitus, from dataset analysis of drug candidates to validation through experimental and computational methods. It highlights Python's role in computational chemistry, encompassing data analysis, hypothesis testing, and simulations.</p>
+                        </div>
+                        <div class="main-item__subdescription">
+                            <p><span>Stack:</span> Python, Pandas, Seaborn, Matplotlib, Biopython, GROMACS, PyMOL, py3Dmol</p>
+                            <p class="main-item__links"><a href="https://github.com/SergeiNikolenko/geropharm-test_case"><span>Source Code</span></a></p>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="content__main-item project">
                     <a data-fslightbox href="assets/img/antibody_cluster_project.png">
                         <img src="assets/img/antibody_cluster_project.png" alt="Antibody Cluster">
@@ -78,15 +118,36 @@
                         </div>
                         <div class="main-item__subdescription">
                             <p><span>Stack:</span> Python, Anaconda, DBSCAN, K-means, Hierarchical Clustering, Biopython, Scikit-learn, Numpy, Matplotlib, Scipy, Seaborn</p>
-                            <p class="main-item__links"><a href="https://github.com/SergeiNikolenko/AntibodyCluster"><span>Source Code</span></a><span>
+                            <p class="main-item__links"><a href="https://github.com/SergeiNikolenko/AntibodyCluster"><span>Source Code</span></a></p>
                         </div>
                     </div>
                 </div>
+
+                <div class="content__main-item project">
+                    <a data-fslightbox href="assets/img/reactivity_project.png">
+                        <img src="assets/img/project_reactivity.png" alt="Local Reactivity of Small Molecules">
+                    </a>
+                    <div>
+                        <div class="main-item__title">
+                            <a href="https://github.com/SergeiNikolenko/gat"><span>Local Reactivity of Small Molecules</span></a>
+                        </div>
+                        <div class="main-item__description">
+                            <p>Our team's research, centered on small molecule reactivity, merges compound database development with graph convolutional networks to predict reactivity via Fukui indices and CDD. Leveraging tools like MOPAC, ORCA, and Chemprop within a Python and PyTorch framework, we conduct analyses on the Lomonosov-2 cluster, employing SLURM and bash for efficiency.</p>
+                        </div>
+                        <div class="main-item__subdescription">
+                            <p><span>Stack:</span> Python, PyTorch, Chemprop, MOPAC, ORCA, SLURM, Bash</p>
+                            <p class="main-item__links"><a href="https://github.com/SergeiNikolenko/gat"><span>Source Code</span></a></p>
+                        </div>
+                    </div>
+                </div>
+                
+
+
             </div>
         </div>
         <div class="footer">
             <div>
-                <span>© Sergey Nikolenko</span>
+                <span>© Sergei Nikolenko</span>
             </div>
         </div>
     </div>
