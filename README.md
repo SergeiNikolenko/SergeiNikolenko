@@ -23,20 +23,6 @@ My technical expertise spans a wide array of tools and programming languages, en
   - **Job Scheduling:** SLURM, screen
   - **Scripting:** Bash scripts for streamlining processes
 
-## 📚 Highlight Projects
-
-My career has been marked by numerous projects that not only posed significant challenges but also contributed to the field's advancement:
-
-- **Molecular Reactivity Prediction:**
-  - Pioneered the use of graph convolutional networks for the prediction of chemical reactivity and Fukui indices.
-- **Blood-Brain Barrier Penetration:**
-  - Applied cheminformatics techniques to predict the ability of small molecules to penetrate the BBB, a critical factor in CNS drug development.
-
-Additionally, my scientific endeavors include:
-
-- **Material Search & Structural Bioinformatics:**
-  - Conducted research on the structure and properties of molecular co-crystals and metal alloys, employing advanced molecular modeling systems.
-  - Investigated receptor/ligand interactions through molecular docking and dynamics, contributing valuable insights to the field.
 
 ## 💬 Personal Development & Community Engagement
 
