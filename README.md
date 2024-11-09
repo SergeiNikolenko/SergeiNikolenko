@@ -1,41 +1,36 @@
 # Sergei Nikolenko
 
-👋 Hi there! I'm Sergei Nikolenko, a medicinal chemist deeply involved in computer-aided drug design. My passion lies in advancing molecular modeling and cheminformatics, using innovative technology to tackle intricate issues in the fields of medicine and pharmacology.
+👋 Hi there! I’m a data scientist with 4 years of experience in ML and drug design. I’m looking for exciting projects in drug development where I can apply my skills and keep learning. I’d be thrilled to join your team!
 
-🌐 [Explore my projects](https://sergeinikolenko.github.io/SergeiNikolenko/) |
-[Review my resume](https://nikolenko-sergei.notion.site/4056815b4766442895d3a706eaacadad?pvs=74)
-
-## 🛠 Tech Stack
-
-My technical expertise spans a wide array of tools and programming languages, enabling me to address diverse challenges in my field:
-
-- **Programming Languages:**
-  - **Python:** A versatile tool for data analysis, molecular modeling, and machine learning tasks.
-- **Molecular Modeling & Chemistry:**
-  - **RDKit, Chemprop, ACE, DeepMD, BioPython**
-  - **Molecular Dynamics:** GROMACS, LAMMPS, Vina
-  - **Quantum Chemistry:** MOPAC, ORCA, VASP
-- **Machine Learning & Data Science:**
-  - **Frameworks:** PyTorch, TensorFlow
-  - **Libraries:** scikit-learn, Cat/XGBoost, cuml, cudf
-  - **Data Handling:** NumPy, Pandas
-- **Utilities:**
-  - **Job Scheduling:** SLURM, screen
-  - **Scripting:** Bash scripts for streamlining processes
+🌐 [Explore my projects](https://sergeinikolenko.github.io/SergeiNikolenko/) | [View my resume](https://nikolenko-sergei.notion.site/4056815b4766442895d3a706eaacadad?pvs=74)
 
 
-## 💬 Personal Development & Community Engagement
+<a href="https://www.github.com/SergeiNikolenko" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/followers/SergeiNikolenko?logo=github&style=for-the-badge&color=6366f1&labelColor=1c1917" /></a>
 
-I am a proactive member of the scientific community, dedicated to continuous learning and knowledge sharing:
+## 🛠 Key Skills & Tech Stack
 
-- **Languages:** Fluent in English (Upper-Intermediate) and Russian (native), enabling effective international collaboration.
-- **Kaggle:** Achieved Expert status through active participation in data science competitions, honing my skills in real-world challenges. [View my Kaggle profile](https://www.kaggle.com/nikolenkosergei)
+- **Cheminformatics & Molecular Modeling**:  
+  RDKit, BioPython, ACE, Chemprop, OpenMM  
+  **Molecular Dynamics & Docking**: GROMACS, LAMMPS, AutoDock Vina  
+  **Quantum Chemistry**: MOPAC, ORCA, VASP  
 
-## 🌐 Connect With Me
+- **Machine Learning & Data Science**:  
+  **Frameworks**: PyTorch, TensorFlow, scikit-learn, Transformers, Optuna, PyG, DGL  
+  **Libraries**: Pandas, NumPy, XGBoost, CatBoost, Dask  
 
-Interested in my work or considering collaboration? Here's how you can reach me:
+- **Programming & Automation**:  
+  Python (primary), C++, Go – expertise in asynchronous programming, multiprocessing, and multithreading  
+  **DevOps & Workflow Orchestration**: Docker, Kubernetes, SLURM, Bash, Airflow, Dagster  
 
-- **Project Portfolio:** [Explore my projects](https://sergeinikolenko.github.io/SergeiNikolenko/)
-- **Detailed Resume:** [Review my resume](https://nikolenko-sergei.notion.site/4056815b4766442895d3a706eaacadad?pvs=74)
+## 💬 Professional Development & Community
 
-I'm always eager to explore new opportunities and ideas within medicinal chemistry and related domains. Feel free to get in touch!
+- **Languages:** Upper-Intermediate English, with international collaboration experience.
+- **Kaggle Expert:** [Check my Kaggle profile](https://www.kaggle.com/nikolenkosergei)
+
+## 📈 GitHub Stats
+
+<a href="http://www.github.com/SergeiNikolenko"><img src="https://github-readme-stats.vercel.app/api?username=SergeiNikolenko&show_icons=true&count_private=true&title_color=a855f7&text_color=ffffff&icon_color=6366f1&bg_color=1c1917&hide_border=true" alt="SergeiNikolenko's GitHub stats" /></a>
+
+## 🌐 Get in Touch
+
+I’m always open to discussions and collaborations on projects within medicinal chemistry, drug discovery, and data science.
