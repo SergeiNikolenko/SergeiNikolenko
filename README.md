@@ -28,7 +28,7 @@ My work sits between research prototypes and usable infrastructure: models, benc
 
 ## GitHub Stats
 
-<a href="http://www.github.com/SergeiNikolenko"><img src="https://github-readme-stats.vercel.app/api?username=SergeiNikolenko&show_icons=true&count_private=true&title_color=a855f7&text_color=ffffff&icon_color=6366f1&bg_color=1c1917&hide_border=true" alt="SergeiNikolenko's GitHub stats" /></a>
+<a href="http://www.github.com/SergeiNikolenko"><img src="https://github-readme-stats.vercel.app/apiusername=SergeiNikolenko&show_icons=true&count_private=true&title_color=a855f7&text_color=ffffff&icon_color=6366f1&bg_color=1c1917&hide_border=true" alt="SergeiNikolenko's GitHub stats" /></a>
 
 ## Get In Touch
 
