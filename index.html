@@ -3,42 +3,32 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>About me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sergei A. Nikolenko — scientific ML engineer and computational chemistry lead building AI systems for molecular discovery.">
+    <title>Sergei A. Nikolenko — Scientific ML &amp; Computational Chemistry</title>
     <link rel="stylesheet" type="text/css" href="assets/styles/styles.css">
 </head>
 
 <body>
-    <div class="main">
-        <div class="header">
-            <a href="#">
-                <span>EN</span>
-            </a>
-            <span>|</span>
-            <a href="/ru">
-                <span>RU</span>
-            </a>
-        </div>
-
-        <div class="content">
+    <main class="main">
+        <section class="content">
             <div class="content__hello">
-                <img class="content__hello-img" src="assets/img/avatar.png" alt="Avatar">
+                <img class="content__hello-img" src="assets/img/avatar.png" alt="Portrait of Sergei Nikolenko">
                 <div class="content__hello-text">
-                    <span class="content__name">
-                        <a href="/">Hey, I'm Sergei Nikolenko.</a>
-                    </span>
-                    <span class="content__description">As a medical chemist and cheminformatician, this page showcases a selection of my projects.</span>
-                    <nav class="content__social">
-                        <a href="https://orcid.org/0000-0003-1150-9390" target="_blank" class="content__social-item">
-                            <img src="assets/img/icons/ORCID.png" alt="ORCID">
-                            <span>ORCID</span>
+                    <span class="content__name"><a href="./">Sergei A. Nikolenko</a></span>
+                    <span class="content__description">Scientific ML engineer and computational chemistry lead building practical AI systems for molecular discovery.</span>
+                    <nav class="content__social" aria-label="Public profiles">
+                        <a href="https://github.com/SergeiNikolenko" target="_blank" rel="noreferrer" class="content__social-item">
+                            <img src="assets/img/icons/github.svg" alt="">
+                            <span>GitHub</span>
                         </a>
-                        <a href="https://www.linkedin.com/in/nikolenkosergeia/" target="_blank" class="content__social-item">
-                            <img src="assets/img/icons/in.svg" alt="LinkedIn">
+                        <a href="https://www.linkedin.com/in/nikolenko-sergei-/" target="_blank" rel="noreferrer" class="content__social-item">
+                            <img src="assets/img/icons/in.svg" alt="">
                             <span>LinkedIn</span>
                         </a>
-                        <a href="https://t.me/Nikolenko_Sergei" target="_blank" class="content__social-item">
-                            <img src="assets/img/icons/telegram.svg" alt="Telegram">
-                            <span>Telegram</span>
+                        <a href="https://orcid.org/0000-0003-1150-9390" target="_blank" rel="noreferrer" class="content__social-item">
+                            <img src="assets/img/icons/ORCID.png" alt="">
+                            <span>ORCID</span>
                         </a>
                     </nav>
                 </div>
@@ -47,132 +37,83 @@
             <div class="content__main">
                 <div class="content__main-item">
                     <div class="main-item__description">
-                        <p>As a Research Scientist with a deep expertise in chemoinformatics and intelligent chemical design, I focus on advancing the field through innovative research in small molecule reactivity and cheminformatics methods for AI models. With a solid foundation in medical and medicinal chemistry, I've contributed to diverse projects ranging from molecular co-crystals research to receptor/ligand interactions analysis, utilizing advanced computational tools and algorithms.</p>
-                        <p>For a detailed overview of my education, work experience, research activities, personal qualities, and skills, please check <a href="https://nikolenko-sergei.notion.site/4056815b4766442895d3a706eaacadad?pvs=74">my resume</a>.</p>
+                        <p>I build scientific ML systems for molecular discovery: molecular docking, protein-ligand modeling, generative molecular design, ADMET/QSAR, chemical LLMs, spectra workflows, benchmarks, and reproducible Python/HPC infrastructure.</p>
+                        <p>My work connects research models with usable software: evaluation pipelines, CLI/TUI tools, remote GPU/HPC workflows, and molecular-data tooling for computational chemistry teams.</p>
                     </div>
                 </div>
 
-                <h1 class="content__about-header">Projects</h1>
+                <h1 class="content__about-header">Selected projects</h1>
 
-                <div class="content__main-item project">
-                </div>
-
-                <div class="content__main-item project">
+                <article class="content__main-item project">
                     <a data-fslightbox href="https://opengraph.githubassets.com/sergei-site/LigandPro/Matcha">
-                        <img src="https://opengraph.githubassets.com/sergei-site/LigandPro/Matcha" alt="Matcha">
+                        <img src="https://opengraph.githubassets.com/sergei-site/LigandPro/Matcha" alt="Matcha project preview">
                     </a>
                     <div>
-                        <div class="main-item__title">
-                            <a href="https://github.com/LigandPro/Matcha"><span>Matcha</span></a>
-                        </div>
-                        <div class="main-item__description">
-                            <p>Matcha is a molecular docking pipeline based on multi-stage Riemannian flow matching. It connects learned pose generation with physical-validity filtering, GNINA minimization/scoring, CLI inference, batching, and multi-GPU workflows.</p>
-                        </div>
-                        <div class="main-item__subdescription">
-                            <p><span>Stack:</span> Python, PyTorch, RDKit, GNINA, PoseBusters, ESM, Typer, Multi-GPU</p>
-                            <p class="main-item__links"><a href="https://github.com/LigandPro/Matcha"><span>Source Code</span></a></p>
-                        </div>
+                        <div class="main-item__title"><a href="https://github.com/LigandPro/Matcha" target="_blank" rel="noreferrer">Matcha</a></div>
+                        <div class="main-item__description"><p>Multi-stage Riemannian flow matching for physically valid molecular docking, with GNINA scoring, pose filtering, CLI inference, and benchmarking workflows.</p></div>
+                        <div class="main-item__subdescription"><p><span>Stack:</span> Python, PyTorch, RDKit, GNINA, PoseBusters, Typer, HPC</p></div>
                     </div>
-                </div>
+                </article>
 
-                <div class="content__main-item project">
-                    <a data-fslightbox href="https://opengraph.githubassets.com/sergei-site/LigandPro/Bento">
-                        <img src="https://opengraph.githubassets.com/sergei-site/LigandPro/Bento" alt="Bento">
-                    </a>
-                    <div>
-                        <div class="main-item__title">
-                            <a href="https://github.com/LigandPro/Bento"><span>Bento</span></a>
-                        </div>
-                        <div class="main-item__description">
-                            <p>Bento is a reproducible benchmark for protein-ligand docking methods. It supports curated datasets, ligand annotations, raw prediction artifacts, pocket-similarity workflows, tests, documentation, and HPC/SLURM execution.</p>
-                        </div>
-                        <div class="main-item__subdescription">
-                            <p><span>Stack:</span> Python, RDKit, uv, Pytest, SLURM, Docking Benchmarks, Pocket Similarity</p>
-                            <p class="main-item__links"><a href="https://github.com/LigandPro/Bento"><span>Source Code</span></a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content__main-item project">
+                <article class="content__main-item project">
                     <a data-fslightbox href="https://opengraph.githubassets.com/sergei-site/LigandPro/hedgehog">
-                        <img src="https://opengraph.githubassets.com/sergei-site/LigandPro/hedgehog" alt="HEDGEHOG">
+                        <img src="https://opengraph.githubassets.com/sergei-site/LigandPro/hedgehog" alt="HEDGEHOG project preview">
                     </a>
                     <div>
-                        <div class="main-item__title">
-                            <a href="https://github.com/LigandPro/hedgehog"><span>HEDGEHOG</span></a>
-                        </div>
-                        <div class="main-item__description">
-                            <p>HEDGEHOG is a staged evaluation pipeline for generative molecular design. It runs molecule preparation, descriptor calculation, structural and medchem filters, retrosynthesis checks, docking, pose-quality filtering, and final reports.</p>
-                        </div>
-                        <div class="main-item__subdescription">
-                            <p><span>Stack:</span> Python, RDKit, AiZynthFinder, GNINA, SMINA, Matcha, CLI/TUI, HTML Reports</p>
-                            <p class="main-item__links"><a href="https://github.com/LigandPro/hedgehog"><span>Source Code</span></a></p>
-                        </div>
+                        <div class="main-item__title"><a href="https://github.com/LigandPro/hedgehog" target="_blank" rel="noreferrer">HEDGEHOG</a></div>
+                        <div class="main-item__description"><p>Stage-based evaluation pipeline for generative molecular design: filters, retrosynthesis checks, docking, pose validation, reports, and CLI/TUI workflows.</p></div>
+                        <div class="main-item__subdescription"><p><span>Stack:</span> Python, RDKit, AiZynthFinder, GNINA, SMINA, HTML reports</p></div>
                     </div>
-                </div>
+                </article>
 
-                <div class="content__main-item project">
-                    <a data-fslightbox href="https://opengraph.githubassets.com/sergei-site/SergeiNikolenko/SpectralixBenchmark">
-                        <img src="https://opengraph.githubassets.com/sergei-site/SergeiNikolenko/SpectralixBenchmark" alt="SpectralixBenchmark">
+                <article class="content__main-item project">
+                    <a data-fslightbox href="https://opengraph.githubassets.com/sergei-site/LigandPro/Bento">
+                        <img src="https://opengraph.githubassets.com/sergei-site/LigandPro/Bento" alt="Bento project preview">
                     </a>
                     <div>
-                        <div class="main-item__title">
-                            <a href="https://github.com/SergeiNikolenko/SpectralixBenchmark"><span>SpectralixBenchmark</span></a>
-                        </div>
-                        <div class="main-item__description">
-                            <p>SpectralixBenchmark is a chemistry benchmark and evaluation package for agentic language models. It evaluates reaction understanding, single-step retrosynthesis, route-level synthesis planning, MS/MS-related tasks, deterministic scoring, and rubric-based LLM judging.</p>
-                        </div>
-                        <div class="main-item__subdescription">
-                            <p><span>Stack:</span> Python, OpenAI-compatible APIs, PydanticAI, OpenShell, RDKit, LLM-as-Judge</p>
-                            <p class="main-item__links"><a href="https://github.com/SergeiNikolenko/SpectralixBenchmark"><span>Source Code</span></a></p>
-                        </div>
+                        <div class="main-item__title"><a href="https://github.com/LigandPro/Bento" target="_blank" rel="noreferrer">Bento</a></div>
+                        <div class="main-item__description"><p>Reproducible benchmark for protein-ligand docking with curated annotations, pocket similarity, and HPC workflows.</p></div>
+                        <div class="main-item__subdescription"><p><span>Stack:</span> Python, RDKit, uv, pytest, SLURM</p></div>
                     </div>
-                </div>
+                </article>
 
-                <div class="content__main-item project">
+                <article class="content__main-item project">
+                    <a data-fslightbox href="https://opengraph.githubassets.com/sergei-site/SergeiNikolenko/SynthLadder">
+                        <img src="https://opengraph.githubassets.com/sergei-site/SergeiNikolenko/SynthLadder" alt="SynthLadder project preview">
+                    </a>
+                    <div>
+                        <div class="main-item__title"><a href="https://github.com/SergeiNikolenko/SynthLadder" target="_blank" rel="noreferrer">SynthLadder</a></div>
+                        <div class="main-item__description"><p>Chemistry benchmark and evaluation package for agentic LLMs across reaction understanding, retrosynthesis, route planning, and MS/MS tasks.</p></div>
+                        <div class="main-item__subdescription"><p><span>Stack:</span> Python, RDKit, structured evaluation, LLM-as-judge</p></div>
+                    </div>
+                </article>
+
+                <article class="content__main-item project">
                     <a data-fslightbox href="https://opengraph.githubassets.com/sergei-site/LigandPro/posecheck-fast">
-                        <img src="https://opengraph.githubassets.com/sergei-site/LigandPro/posecheck-fast" alt="posecheck-fast">
+                        <img src="https://opengraph.githubassets.com/sergei-site/LigandPro/posecheck-fast" alt="posecheck-fast project preview">
                     </a>
                     <div>
-                        <div class="main-item__title">
-                            <a href="https://github.com/LigandPro/posecheck-fast"><span>posecheck-fast</span></a>
-                        </div>
-                        <div class="main-item__description">
-                            <p>posecheck-fast is a high-throughput docking pose evaluation package with symmetry-corrected RMSD and lightweight PoseBusters-style distance and clash filters, designed for fast validation inside larger docking and model-evaluation loops.</p>
-                        </div>
-                        <div class="main-item__subdescription">
-                            <p><span>Stack:</span> Python, RDKit, spyrmsd, PyTorch, PoseBusters, Pytest, Ruff</p>
-                            <p class="main-item__links"><a href="https://github.com/LigandPro/posecheck-fast"><span>Source Code</span></a></p>
-                        </div>
+                        <div class="main-item__title"><a href="https://github.com/LigandPro/posecheck-fast" target="_blank" rel="noreferrer">posecheck-fast</a></div>
+                        <div class="main-item__description"><p>High-throughput docking pose validation with symmetry-corrected RMSD and lightweight distance and clash filters.</p></div>
+                        <div class="main-item__subdescription"><p><span>Stack:</span> Python, RDKit, spyrmsd, PyTorch, PoseBusters</p></div>
                     </div>
-                </div>
+                </article>
 
-                <div class="content__main-item project">
-                    <a data-fslightbox href="https://opengraph.githubassets.com/sergei-site/SergeiNikolenko/Burette">
-                        <img src="https://opengraph.githubassets.com/sergei-site/SergeiNikolenko/Burette" alt="Burette">
+                <article class="content__main-item project">
+                    <a data-fslightbox href="https://opengraph.githubassets.com/sergei-site/SergeiNikolenko/Burrete">
+                        <img src="https://opengraph.githubassets.com/sergei-site/SergeiNikolenko/Burrete" alt="Burrete project preview">
                     </a>
                     <div>
-                        <div class="main-item__title">
-                            <a href="https://github.com/SergeiNikolenko/Burette"><span>Burette</span></a>
-                        </div>
-                        <div class="main-item__description">
-                            <p>Burette is a macOS molecular preview tool with Finder and Quick Look integration. It supports Mol* 3D visualization, fast XYZ/CUBE rendering, RDKit-powered compound grids, SMARTS filtering, search, sorting, and export workflows.</p>
-                        </div>
-                        <div class="main-item__subdescription">
-                            <p><span>Stack:</span> Swift, macOS, Quick Look, WebKit, Mol*, RDKit.js, TypeScript</p>
-                            <p class="main-item__links"><a href="https://github.com/SergeiNikolenko/Burette"><span>Source Code</span></a></p>
-                        </div>
+                        <div class="main-item__title"><a href="https://github.com/SergeiNikolenko/Burrete" target="_blank" rel="noreferrer">Burrete</a></div>
+                        <div class="main-item__description"><p>macOS molecular preview tooling with Finder and Quick Look integration, Mol* visualization, fast XYZ rendering, and RDKit-powered compound grids.</p></div>
+                        <div class="main-item__subdescription"><p><span>Stack:</span> Swift, macOS, Quick Look, WebKit, Mol*, RDKit.js, TypeScript</p></div>
                     </div>
-                </div>
+                </article>
             </div>
-        </div>
+        </section>
 
-        <div class="footer">
-            <div>
-                <span>© Sergei Nikolenko</span>
-            </div>
-        </div>
-    </div>
+        <footer class="footer"><span>© Sergei A. Nikolenko</span></footer>
+    </main>
     <script src="assets/scripts/fslightbox.js"></script>
 </body>
 
