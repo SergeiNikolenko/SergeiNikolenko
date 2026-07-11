@@ -1,327 +1,284 @@
 <!doctype html>
-<html lang="en"><head>
+<html lang="en">
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Sergei A. Nikolenko — scientific ML engineer and computational chemistry lead building practical AI systems for molecular discovery.">
-    <meta name="theme-color" content="#f8fafc">
+    <meta name="theme-color" content="#ffffff">
     <title>Sergei A. Nikolenko — Scientific ML &amp; Computational Chemistry</title>
-    <link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="icon" href="assets/img/avatar.png">
+    <link rel="preload" href="assets/fonts/geist-latin.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="assets/styles/styles.css">
+    <script>
+        (() => {
+            document.documentElement.classList.add("js");
+            const savedTheme = localStorage.getItem("theme");
+            const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+            document.documentElement.classList.toggle("dark", savedTheme === "dark" || (!savedTheme && prefersDark));
+        })();
+    </script>
 </head>
 <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="dot-field" aria-hidden="true"></div>
 
-    <header class="site-header">
-        <div class="shell header-inner">
-            <a class="brand" href="#overview" aria-label="Sergei A. Nikolenko — overview">
-                <span class="brand-mark" aria-hidden="true">
-                    <svg viewBox="0 0 32 32"><use href="assets/img/icons/science-icons.svg#site-mark"></use></svg>
-                </span>
-                <span>Sergei A. Nikolenko</span>
-            </a>
-
-            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
-                <svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#menu"></use></svg>
-                <span class="sr-only">Open navigation</span>
-            </button>
-
-            <nav class="primary-nav" id="primary-navigation" aria-label="Primary navigation">
-                <a href="#overview" data-nav="overview" aria-current="page">Overview</a>
-                <a href="#work" data-nav="work">Work</a>
-                <a href="#projects" data-nav="projects">Projects</a>
-                <a href="#expertise" data-nav="expertise">Expertise</a>
-                <a href="#education" data-nav="education">Education</a>
-                <a href="#profiles" data-nav="profiles">Profiles</a>
-            </nav>
-        </div>
-    </header>
-
-    <main id="main-content">
-        <section class="hero shell" id="overview" aria-labelledby="hero-title">
-            <div class="hero-copy">
-                <p class="eyebrow">Scientific systems for molecular discovery</p>
-                <h1 id="hero-title">Sergei A. Nikolenko</h1>
-                <p class="hero-role">Staff Scientific ML Engineer and<br>Computational Chemistry Lead</p>
-                <p class="hero-summary">I build scientific ML systems that make molecular discovery more reliable and usable — connecting research models with modern AI, chemistry, and HPC infrastructure.</p>
-
-                <nav class="social-links" aria-label="Public profiles">
-                    <a href="https://github.com/SergeiNikolenko" target="_blank" rel="noreferrer">
-                        <img src="assets/img/icons/github.svg" alt="" width="20" height="20">
-                        <span>GitHub</span>
-                    </a>
-                    <a href="https://www.linkedin.com/in/nikolenko-sergei-/" target="_blank" rel="noreferrer">
-                        <img src="assets/img/icons/in.svg" alt="" width="20" height="20">
-                        <span>LinkedIn</span>
-                    </a>
-                    <a href="https://orcid.org/0000-0003-1150-9390" target="_blank" rel="noreferrer">
-                        <img src="assets/img/icons/ORCID.png" alt="" width="20" height="20">
-                        <span>ORCID</span>
-                    </a>
-                    <a href="https://scholar.google.com/citations?user=AcppxmcAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">
-                        <img src="assets/img/icons/google-scholar.svg" alt="" width="20" height="20">
-                        <span>Google Scholar</span>
-                    </a>
-                    <a href="https://kaggle.com/nikolenkosergei" target="_blank" rel="noreferrer">
-                        <img src="assets/img/icons/kaggle.svg" alt="" width="20" height="20">
-                        <span>Kaggle</span>
-                    </a>
-                </nav>
-            </div>
-
-            <div class="hero-visual">
-                <div class="project-orbit" data-project-orbit="" role="group" aria-label="Interactive map of selected projects">
-                    <svg class="orbit-network" viewBox="0 0 600 420" aria-hidden="true">
-                        <use href="assets/img/icons/science-icons.svg#network"></use>
-                    </svg>
-
-                    <a class="orbit-card orbit-card--matcha" data-depth="1" href="https://github.com/LigandPro/Matcha" target="_blank" rel="noreferrer">
-                        <img src="assets/img/projects/matcha.png" alt="" width="996" height="269">
-                        <span><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#docking"></use></svg>Matcha</span>
-                    </a>
-                    <a class="orbit-card orbit-card--hedgehog" data-depth="0.72" href="https://github.com/LigandPro/hedgehog" target="_blank" rel="noreferrer">
-                        <img src="assets/img/projects/hedgehog.png" alt="" width="1200" height="600">
-                        <span><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#benchmark"></use></svg>HEDGEHOG</span>
-                    </a>
-                    <a class="orbit-card orbit-card--bento" data-depth="0.88" href="https://github.com/LigandPro/Bento" target="_blank" rel="noreferrer">
-                        <img src="assets/img/projects/bento.png" alt="" width="1200" height="600">
-                        <span><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#molecule"></use></svg>Bento</span>
-                    </a>
-                    <a class="orbit-card orbit-card--synthladder" data-depth="0.55" href="https://github.com/SergeiNikolenko/SynthLadder" target="_blank" rel="noreferrer">
-                        <img src="assets/img/projects/synthladder.png" alt="" width="1200" height="600">
-                        <span><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#generation"></use></svg>SynthLadder</span>
-                    </a>
-                    <a class="orbit-card orbit-card--posecheck" data-depth="0.68" href="https://github.com/LigandPro/posecheck-fast" target="_blank" rel="noreferrer">
-                        <img src="assets/img/projects/posecheck-fast.png" alt="" width="1200" height="600">
-                        <span><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#docking"></use></svg>posecheck-fast</span>
-                    </a>
-                    <a class="orbit-card orbit-card--burrete" data-depth="0.42" href="https://github.com/SergeiNikolenko/Burrete" target="_blank" rel="noreferrer">
-                        <img src="assets/img/projects/burrete.png" alt="" width="1200" height="600">
-                        <span><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#spectrum"></use></svg>Burrete</span>
-                    </a>
+    <div class="page-shell">
+        <main id="main-content">
+            <section class="hero reveal" id="home" aria-labelledby="hero-title">
+                <div class="hero-copy">
+                    <h1 id="hero-title">Hi, I’m Sergei</h1>
+                    <p>Staff Scientific ML Engineer and computational chemistry lead. I build practical AI systems for molecular discovery.</p>
                 </div>
-            </div>
-        </section>
+                <img class="avatar" src="assets/img/avatar.png" alt="Sergei Nikolenko's GitHub avatar" width="126" height="126">
+            </section>
 
-        <nav class="section-nav" aria-label="Page sections">
-            <div class="shell section-nav-inner">
-                <a href="#work">
-                    <svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#work"></use></svg>
-                    <span>Current work</span>
-                </a>
-                <a href="#expertise">
-                    <svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#molecule"></use></svg>
-                    <span>Expertise</span>
-                </a>
-                <a href="#projects">
-                    <svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#projects"></use></svg>
-                    <span>Projects</span>
-                </a>
-                <a href="#education">
-                    <svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#education"></use></svg>
-                    <span>Education</span>
-                </a>
-                <a href="#profiles">
-                    <svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#profiles"></use></svg>
-                    <span>Profiles</span>
-                </a>
-            </div>
-        </nav>
+            <section class="content-section reveal" id="about" aria-labelledby="about-title">
+                <h2 id="about-title">About</h2>
+                <p class="about-copy">I work at the intersection of scientific machine learning, computational chemistry, and research engineering. My focus is turning molecular models into reliable systems for docking, generative design, chemical retrieval, spectra, evaluation, and high-performance research workflows.</p>
+            </section>
 
-        <div class="page-content shell">
-            <section class="section" id="work" aria-labelledby="work-title">
-                <div class="section-heading">
-                    <p class="section-kicker">Current practice</p>
-                    <h2 id="work-title">Current work</h2>
-                </div>
-
-                <div class="roles">
-                    <article class="role">
-                        <div class="role-mark">
-                            <img src="assets/img/ligandpro.png" alt="" width="64" height="64">
+            <section class="content-section reveal" id="work" aria-labelledby="work-title">
+                <h2 id="work-title">Work Experience</h2>
+                <div class="accordion-list">
+                    <article class="accordion-item">
+                        <button class="accordion-trigger" type="button" aria-expanded="false" aria-controls="work-ligandpro" data-accordion-trigger>
+                            <span class="role-logo role-logo--image"><img src="assets/img/ligandpro.png" alt="" width="40" height="40"></span>
+                            <span class="role-main">
+                                <span class="role-heading"><strong>LigandPro</strong><svg class="chevron" viewBox="0 0 24 24" aria-hidden="true"><use href="assets/img/icons/ui-icons.svg#chevron-right"></use></svg></span>
+                                <span>Head of Computational Chemistry / AI Drug Discovery R&amp;D Lead</span>
+                            </span>
+                            <time datetime="2023-02">Feb 2023 — Present</time>
+                        </button>
+                        <div class="accordion-panel" id="work-ligandpro" hidden>
+                            <p>Leading computational chemistry and AI drug-discovery R&amp;D across docking, molecular design, evaluation, and research infrastructure.</p>
                         </div>
-                        <div class="role-copy">
-                            <h3>Head of Computational Chemistry / AI Drug Discovery R&amp;D Lead</h3>
-                            <a href="https://github.com/LigandPro" target="_blank" rel="noreferrer">LigandPro</a>
-                            <p>Leading computational chemistry and AI drug-discovery R&amp;D, building scientific ML systems for docking, molecular design, evaluation, and research acceleration.</p>
-                        </div>
-                        <time datetime="2023-02">Feb 2023 – Present</time>
                     </article>
 
-                    <article class="role">
-                        <div class="role-mark role-mark--university">
-                            <svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#university"></use></svg>
-                        </div>
-                        <div class="role-copy">
-                            <h3>Staff AI Research Engineer, Chemical LLM/RAG &amp; Spectra Systems</h3>
-                            <span class="role-organization">Innopolis University</span>
+                    <article class="accordion-item">
+                        <button class="accordion-trigger" type="button" aria-expanded="false" aria-controls="work-innopolis" data-accordion-trigger>
+                            <span class="role-logo role-logo--green"><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#university"></use></svg></span>
+                            <span class="role-main">
+                                <span class="role-heading"><strong>Innopolis University</strong><svg class="chevron" viewBox="0 0 24 24" aria-hidden="true"><use href="assets/img/icons/ui-icons.svg#chevron-right"></use></svg></span>
+                                <span>Staff AI Research Engineer, Chemical LLM/RAG &amp; Spectra Systems</span>
+                            </span>
+                            <time datetime="2025-09">Sep 2025 — Present</time>
+                        </button>
+                        <div class="accordion-panel" id="work-innopolis" hidden>
                             <p>Developing chemistry LLM/RAG, molecular spectra, reaction-understanding, retrieval, tool workflows, and reproducible scientific reporting systems.</p>
                         </div>
-                        <time datetime="2025-09">Sep 2025 – Present</time>
                     </article>
-                </div>
-            </section>
 
-            <section class="section expertise-section" id="expertise" aria-labelledby="expertise-title">
-                <div class="section-heading section-heading--inline">
-                    <p class="section-kicker">Research and engineering</p>
-                    <h2 id="expertise-title">Expertise</h2>
-                </div>
-
-                <div class="expertise-grid">
-                    <div class="expertise-item"><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#docking"></use></svg><span>Molecular<br>Docking</span></div>
-                    <div class="expertise-item"><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#generation"></use></svg><span>Generative<br>Molecular Design</span></div>
-                    <div class="expertise-item"><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#flask"></use></svg><span>ADMET /<br>QSAR</span></div>
-                    <div class="expertise-item"><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#rag"></use></svg><span>Chemical<br>LLM / RAG</span></div>
-                    <div class="expertise-item"><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#spectrum"></use></svg><span>Molecular<br>Spectra</span></div>
-                    <div class="expertise-item"><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#benchmark"></use></svg><span>Benchmarks &amp;<br>Evaluation</span></div>
-                    <div class="expertise-item"><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#molecule"></use></svg><span>RDKit</span></div>
-                    <div class="expertise-item"><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#torch"></use></svg><span>PyTorch</span></div>
-                    <div class="expertise-item"><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#serpents"></use></svg><span>Python</span></div>
-                    <div class="expertise-item"><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#compute"></use></svg><span>HPC /<br>SLURM</span></div>
-                </div>
-            </section>
-
-            <section class="section" id="projects" aria-labelledby="projects-title">
-                <div class="section-heading section-heading--projects">
-                    <div>
-                        <p class="section-kicker">Open-source systems</p>
-                        <h2 id="projects-title">Flagship projects</h2>
-                    </div>
-                    <a class="text-link" href="https://github.com/SergeiNikolenko?tab=repositories" target="_blank" rel="noreferrer">
-                        View all projects on GitHub
-                        <svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#arrow-up-right"></use></svg>
-                    </a>
-                </div>
-
-                <div class="featured-projects">
-                    <article class="project project--featured">
-                        <a class="project-media project-media--contain" href="https://github.com/LigandPro/Matcha" target="_blank" rel="noreferrer" aria-label="Open Matcha on GitHub">
-                            <img src="assets/img/projects/matcha.png" alt="Matcha multi-stage docking pipeline" width="996" height="269">
-                        </a>
-                        <div class="project-copy">
-                            <div class="project-title-row">
-                                <h3>Matcha</h3>
-                                <a href="https://github.com/LigandPro/Matcha" target="_blank" rel="noreferrer" aria-label="Open Matcha on GitHub">
-                                    <svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#arrow-up-right"></use></svg>
-                                </a>
-                            </div>
-                            <p>Multi-stage Riemannian flow matching for physically valid molecular docking, with GNINA scoring, pose filtering, CLI inference, and benchmarking workflows.</p>
-                            <ul class="tags" aria-label="Matcha technologies">
-                                <li>Python</li><li>PyTorch</li><li>RDKit</li><li>GNINA</li><li>PoseBusters</li><li>HPC</li>
-                            </ul>
+                    <article class="accordion-item">
+                        <button class="accordion-trigger" type="button" aria-expanded="false" aria-controls="work-ai-institute" data-accordion-trigger>
+                            <span class="role-logo role-logo--blue"><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#torch"></use></svg></span>
+                            <span class="role-main">
+                                <span class="role-heading"><strong>AI Institute, MSU</strong><svg class="chevron" viewBox="0 0 24 24" aria-hidden="true"><use href="assets/img/icons/ui-icons.svg#chevron-right"></use></svg></span>
+                                <span>Research Scientist, Scientific ML &amp; Computational Chemistry</span>
+                            </span>
+                            <time datetime="2022-11/2024-10">Nov 2022 — Oct 2024</time>
+                        </button>
+                        <div class="accordion-panel" id="work-ai-institute" hidden>
+                            <p>Researched machine-learning methods and software for molecular modeling, chemical data, and computational chemistry.</p>
                         </div>
                     </article>
 
-                    <article class="project project--featured">
-                        <a class="project-media" href="https://github.com/LigandPro/hedgehog" target="_blank" rel="noreferrer" aria-label="Open HEDGEHOG on GitHub">
-                            <img src="assets/img/projects/hedgehog.png" alt="HEDGEHOG GitHub repository preview" width="1200" height="600" loading="lazy">
-                        </a>
-                        <div class="project-copy">
-                            <div class="project-title-row">
-                                <h3>HEDGEHOG</h3>
-                                <a href="https://github.com/LigandPro/hedgehog" target="_blank" rel="noreferrer" aria-label="Open HEDGEHOG on GitHub">
-                                    <svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#arrow-up-right"></use></svg>
-                                </a>
-                            </div>
-                            <p>Stage-based evaluation for generative molecular design: filters, retrosynthesis checks, docking, pose validation, reports, and CLI/TUI workflows.</p>
-                            <ul class="tags" aria-label="HEDGEHOG technologies">
-                                <li>Python</li><li>RDKit</li><li>AiZynthFinder</li><li>GNINA</li><li>SMINA</li><li>CLI/TUI</li>
-                            </ul>
-                        </div>
-                    </article>
-                </div>
-
-                <div class="project-grid">
-                    <article class="project">
-                        <a class="project-media" href="https://github.com/LigandPro/Bento" target="_blank" rel="noreferrer" aria-label="Open Bento on GitHub">
-                            <img src="assets/img/projects/bento.png" alt="Bento GitHub repository preview" width="1200" height="600" loading="lazy">
-                        </a>
-                        <div class="project-copy">
-                            <div class="project-title-row"><h3>Bento</h3><a href="https://github.com/LigandPro/Bento" target="_blank" rel="noreferrer" aria-label="Open Bento on GitHub"><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#arrow-up-right"></use></svg></a></div>
-                            <p>Reproducible protein–ligand docking benchmark with curated annotations, pocket similarity, and HPC workflows.</p>
-                            <ul class="tags" aria-label="Bento technologies"><li>Python</li><li>RDKit</li><li>uv</li><li>pytest</li><li>SLURM</li></ul>
-                        </div>
-                    </article>
-
-                    <article class="project">
-                        <a class="project-media" href="https://github.com/SergeiNikolenko/SynthLadder" target="_blank" rel="noreferrer" aria-label="Open SynthLadder on GitHub">
-                            <img src="assets/img/projects/synthladder.png" alt="SynthLadder GitHub repository preview" width="1200" height="600" loading="lazy">
-                        </a>
-                        <div class="project-copy">
-                            <div class="project-title-row"><h3>SynthLadder</h3><a href="https://github.com/SergeiNikolenko/SynthLadder" target="_blank" rel="noreferrer" aria-label="Open SynthLadder on GitHub"><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#arrow-up-right"></use></svg></a></div>
-                            <p>Chemistry benchmark for agentic LLMs across reaction understanding, retrosynthesis, route planning, and MS/MS tasks.</p>
-                            <ul class="tags" aria-label="SynthLadder technologies"><li>Python</li><li>RDKit</li><li>Structured evaluation</li><li>LLM-as-judge</li></ul>
-                        </div>
-                    </article>
-
-                    <article class="project">
-                        <a class="project-media" href="https://github.com/LigandPro/posecheck-fast" target="_blank" rel="noreferrer" aria-label="Open posecheck-fast on GitHub">
-                            <img src="assets/img/projects/posecheck-fast.png" alt="posecheck-fast GitHub repository preview" width="1200" height="600" loading="lazy">
-                        </a>
-                        <div class="project-copy">
-                            <div class="project-title-row"><h3>posecheck-fast</h3><a href="https://github.com/LigandPro/posecheck-fast" target="_blank" rel="noreferrer" aria-label="Open posecheck-fast on GitHub"><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#arrow-up-right"></use></svg></a></div>
-                            <p>High-throughput docking pose validation with symmetry-corrected RMSD and lightweight distance and clash filters.</p>
-                            <ul class="tags" aria-label="posecheck-fast technologies"><li>Python</li><li>RDKit</li><li>spyrmsd</li><li>PyTorch</li><li>PoseBusters</li></ul>
-                        </div>
-                    </article>
-
-                    <article class="project">
-                        <a class="project-media" href="https://github.com/SergeiNikolenko/Burrete" target="_blank" rel="noreferrer" aria-label="Open Burrete on GitHub">
-                            <img src="assets/img/projects/burrete.png" alt="Burrete GitHub repository preview" width="1200" height="600" loading="lazy">
-                        </a>
-                        <div class="project-copy">
-                            <div class="project-title-row"><h3>Burrete</h3><a href="https://github.com/SergeiNikolenko/Burrete" target="_blank" rel="noreferrer" aria-label="Open Burrete on GitHub"><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#arrow-up-right"></use></svg></a></div>
-                            <p>macOS molecular previews with Finder and Quick Look integration, Mol*, fast XYZ rendering, and RDKit-powered compound grids.</p>
-                            <ul class="tags" aria-label="Burrete technologies"><li>Swift</li><li>macOS</li><li>Quick Look</li><li>WebKit</li><li>Mol*</li><li>RDKit.js</li></ul>
+                    <article class="accordion-item">
+                        <button class="accordion-trigger" type="button" aria-expanded="false" aria-controls="work-syntelly" data-accordion-trigger>
+                            <span class="role-logo role-logo--violet"><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#molecule"></use></svg></span>
+                            <span class="role-main">
+                                <span class="role-heading"><strong>Syntelly</strong><svg class="chevron" viewBox="0 0 24 24" aria-hidden="true"><use href="assets/img/icons/ui-icons.svg#chevron-right"></use></svg></span>
+                                <span>ML Research Scientist, Molecular Discovery</span>
+                            </span>
+                            <time datetime="2021/2023">2021 — 2023</time>
+                        </button>
+                        <div class="accordion-panel" id="work-syntelly" hidden>
+                            <p>Built and evaluated machine-learning approaches for molecular property prediction and data-driven drug discovery.</p>
                         </div>
                     </article>
                 </div>
             </section>
 
-            <section class="section closing-grid" id="education" aria-label="Education and collaboration">
-                <div class="education-panel">
-                    <div class="panel-heading">
-                        <svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#education"></use></svg>
-                        <h2>Education</h2>
-                    </div>
-                    <article class="education-item">
-                        <div>
-                            <h3>M.Sc. in Machine Learning and AI</h3>
-                            <p>Skolkovo Institute of Science and Technology</p>
-                        </div>
+            <section class="content-section reveal" id="education" aria-labelledby="education-title">
+                <h2 id="education-title">Education</h2>
+                <div class="education-list">
+                    <article class="education-row">
+                        <span class="role-logo role-logo--dark"><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#education"></use></svg></span>
+                        <span class="education-main"><strong>Skolkovo Institute of Science and Technology</strong><span>M.Sc. in Machine Learning and AI</span></span>
                         <time datetime="2022">2022</time>
                     </article>
-                    <article class="education-item">
-                        <div>
-                            <h3>B.Sc. in Fundamental and Applied Chemistry</h3>
-                            <p>Mendeleev University of Chemical Technology</p>
-                        </div>
+                    <article class="education-row">
+                        <span class="role-logo role-logo--amber"><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#flask"></use></svg></span>
+                        <span class="education-main"><strong>Mendeleev University of Chemical Technology</strong><span>B.Sc. in Fundamental and Applied Chemistry</span></span>
                         <time datetime="2020">2020</time>
                     </article>
                 </div>
+            </section>
 
-                <div class="collaboration-panel" id="profiles">
-                    <div class="panel-heading">
-                        <svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#profiles"></use></svg>
-                        <h2>Let’s collaborate</h2>
-                    </div>
-                    <p>I’m open to research collaborations, technical discussions, and building useful scientific software for computational chemistry teams.</p>
-                    <nav class="profile-list" aria-label="Collaboration profiles">
-                        <a href="https://github.com/SergeiNikolenko" target="_blank" rel="noreferrer">GitHub <svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#arrow-up-right"></use></svg></a>
-                        <a href="https://www.linkedin.com/in/nikolenko-sergei-/" target="_blank" rel="noreferrer">LinkedIn <svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#arrow-up-right"></use></svg></a>
-                        <a href="https://orcid.org/0000-0003-1150-9390" target="_blank" rel="noreferrer">ORCID <svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#arrow-up-right"></use></svg></a>
-                        <a href="https://scholar.google.com/citations?user=AcppxmcAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">Google Scholar <svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#arrow-up-right"></use></svg></a>
-                        <a href="https://kaggle.com/nikolenkosergei" target="_blank" rel="noreferrer">Kaggle <svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#arrow-up-right"></use></svg></a>
-                    </nav>
+            <section class="content-section reveal" id="skills" aria-labelledby="skills-title">
+                <h2 id="skills-title">Skills</h2>
+                <div class="skills" aria-label="Technical skills">
+                    <span><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#torch"></use></svg>Scientific ML</span>
+                    <span><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#molecule"></use></svg>Computational Chemistry</span>
+                    <span><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#docking"></use></svg>Molecular Docking</span>
+                    <span><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#generation"></use></svg>Generative Design</span>
+                    <span><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#rag"></use></svg>Chemical LLM / RAG</span>
+                    <span><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#spectrum"></use></svg>Molecular Spectra</span>
+                    <span><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#flask"></use></svg>RDKit</span>
+                    <span><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#torch"></use></svg>PyTorch</span>
+                    <span><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#serpents"></use></svg>Python</span>
+                    <span><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#compute"></use></svg>HPC / SLURM</span>
+                    <span><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#benchmark"></use></svg>Benchmarking</span>
                 </div>
             </section>
-        </div>
-    </main>
 
-    <footer class="site-footer shell">
-        <span>© 2026 Sergei A. Nikolenko</span>
-        <span>Scientific ML · Computational chemistry · Open-source systems</span>
-    </footer>
+            <section class="projects-section reveal" id="projects" aria-labelledby="projects-title">
+                <div class="section-intro">
+                    <span class="section-badge">My Projects</span>
+                    <h2 id="projects-title">Check out my latest work</h2>
+                    <p>I build open scientific systems for molecular discovery, model evaluation, and chemistry-native research workflows.</p>
+                </div>
+
+                <div class="project-grid">
+                    <article class="project-card">
+                        <a class="project-media project-media--contain" href="https://github.com/LigandPro/Matcha" target="_blank" rel="noreferrer" aria-label="Open Matcha on GitHub">
+                            <img src="assets/img/projects/matcha.png" alt="Matcha molecular docking pipeline" width="996" height="269">
+                            <span class="media-action"><img src="assets/img/icons/github.svg" alt="" width="13" height="13">Source</span>
+                        </a>
+                        <div class="project-body">
+                            <div class="project-title-row"><h3>Matcha</h3><svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/img/icons/ui-icons.svg#arrow-up-right"></use></svg></div>
+                            <span class="project-meta">Scientific ML · Open source</span>
+                            <p>Multi-stage Riemannian flow matching for physically valid molecular docking, with scoring, pose filtering, and benchmarking workflows.</p>
+                            <div class="project-tags"><span>Python</span><span>PyTorch</span><span>RDKit</span><span>GNINA</span></div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <a class="project-media" href="https://github.com/LigandPro/hedgehog" target="_blank" rel="noreferrer" aria-label="Open HEDGEHOG on GitHub">
+                            <img src="assets/img/projects/hedgehog.png" alt="HEDGEHOG evaluation system" width="1200" height="600" loading="lazy">
+                            <span class="media-action"><img src="assets/img/icons/github.svg" alt="" width="13" height="13">Source</span>
+                        </a>
+                        <div class="project-body">
+                            <div class="project-title-row"><h3>HEDGEHOG</h3><svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/img/icons/ui-icons.svg#arrow-up-right"></use></svg></div>
+                            <span class="project-meta">Evaluation · Open source</span>
+                            <p>Stage-based evaluation for generative molecular design: filters, retrosynthesis checks, docking, pose validation, and reports.</p>
+                            <div class="project-tags"><span>RDKit</span><span>Docking</span><span>Evaluation</span><span>CLI/TUI</span></div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <a class="project-media" href="https://github.com/LigandPro/Bento" target="_blank" rel="noreferrer" aria-label="Open Bento on GitHub">
+                            <img src="assets/img/projects/bento.png" alt="Bento docking benchmark" width="1200" height="600" loading="lazy">
+                            <span class="media-action"><img src="assets/img/icons/github.svg" alt="" width="13" height="13">Source</span>
+                        </a>
+                        <div class="project-body">
+                            <div class="project-title-row"><h3>Bento</h3><svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/img/icons/ui-icons.svg#arrow-up-right"></use></svg></div>
+                            <span class="project-meta">Docking benchmark · Open source</span>
+                            <p>A reproducible protein–ligand docking benchmark with curated annotations, pocket similarity, and HPC workflows.</p>
+                            <div class="project-tags"><span>Python</span><span>RDKit</span><span>Benchmarking</span><span>SLURM</span></div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <a class="project-media" href="https://github.com/SergeiNikolenko/SynthLadder" target="_blank" rel="noreferrer" aria-label="Open SynthLadder on GitHub">
+                            <img src="assets/img/projects/synthladder.png" alt="SynthLadder chemistry benchmark" width="1200" height="600" loading="lazy">
+                            <span class="media-action"><img src="assets/img/icons/github.svg" alt="" width="13" height="13">Source</span>
+                        </a>
+                        <div class="project-body">
+                            <div class="project-title-row"><h3>SynthLadder</h3><svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/img/icons/ui-icons.svg#arrow-up-right"></use></svg></div>
+                            <span class="project-meta">Chemistry agents · Open source</span>
+                            <p>A chemistry benchmark for agentic LLMs across reaction understanding, retrosynthesis, route planning, and MS/MS tasks.</p>
+                            <div class="project-tags"><span>Chemistry</span><span>LLM Agents</span><span>Retrosynthesis</span><span>MS/MS</span></div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <a class="project-media" href="https://github.com/LigandPro/posecheck-fast" target="_blank" rel="noreferrer" aria-label="Open posecheck-fast on GitHub">
+                            <img src="assets/img/projects/posecheck-fast.png" alt="posecheck-fast pose validation toolkit" width="1200" height="600" loading="lazy">
+                            <span class="media-action"><img src="assets/img/icons/github.svg" alt="" width="13" height="13">Source</span>
+                        </a>
+                        <div class="project-body">
+                            <div class="project-title-row"><h3>posecheck-fast</h3><svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/img/icons/ui-icons.svg#arrow-up-right"></use></svg></div>
+                            <span class="project-meta">Pose validation · Open source</span>
+                            <p>High-throughput docking pose validation with symmetry-corrected RMSD and lightweight distance and clash filters.</p>
+                            <div class="project-tags"><span>Docking</span><span>RMSD</span><span>Validation</span><span>Python</span></div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <a class="project-media" href="https://github.com/SergeiNikolenko/Burrete" target="_blank" rel="noreferrer" aria-label="Open Burrete on GitHub">
+                            <img src="assets/img/projects/burrete.png" alt="Burrete macOS molecular preview application" width="1200" height="600" loading="lazy">
+                            <span class="media-action"><img src="assets/img/icons/github.svg" alt="" width="13" height="13">Source</span>
+                        </a>
+                        <div class="project-body">
+                            <div class="project-title-row"><h3>Burrete</h3><svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/img/icons/ui-icons.svg#arrow-up-right"></use></svg></div>
+                            <span class="project-meta">Native macOS · Open source</span>
+                            <p>Native macOS molecular previews with Finder and Quick Look integration, Mol*, fast XYZ rendering, and RDKit-powered grids.</p>
+                            <div class="project-tags"><span>macOS</span><span>Quick Look</span><span>Mol*</span><span>RDKit</span></div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="timeline-section reveal" id="journey" aria-labelledby="journey-title">
+                <div class="section-intro section-intro--timeline">
+                    <span class="section-badge">Selected Systems</span>
+                    <h2 id="journey-title">I like building things</h2>
+                    <p>From research prototypes to dependable scientific software, these projects reflect how I approach computational chemistry.</p>
+                </div>
+
+                <div class="timeline">
+                    <article class="timeline-item">
+                        <div class="timeline-marker"><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#docking"></use></svg></div>
+                        <div class="timeline-copy"><h3>Matcha</h3><p>Physically valid generative docking</p></div>
+                        <span>Scientific ML</span>
+                    </article>
+                    <article class="timeline-item">
+                        <div class="timeline-marker"><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#benchmark"></use></svg></div>
+                        <div class="timeline-copy"><h3>HEDGEHOG</h3><p>Evaluation for molecular generators</p></div>
+                        <span>Open source</span>
+                    </article>
+                    <article class="timeline-item">
+                        <div class="timeline-marker"><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#molecule"></use></svg></div>
+                        <div class="timeline-copy"><h3>Bento</h3><p>Reproducible docking benchmarks</p></div>
+                        <span>Benchmarking</span>
+                    </article>
+                    <article class="timeline-item">
+                        <div class="timeline-marker"><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#generation"></use></svg></div>
+                        <div class="timeline-copy"><h3>SynthLadder</h3><p>Chemistry tasks for agentic LLMs</p></div>
+                        <span>Research system</span>
+                    </article>
+                    <article class="timeline-item">
+                        <div class="timeline-marker"><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#docking"></use></svg></div>
+                        <div class="timeline-copy"><h3>posecheck-fast</h3><p>Fast, reliable pose validation</p></div>
+                        <span>Open source</span>
+                    </article>
+                    <article class="timeline-item">
+                        <div class="timeline-marker"><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/img/icons/science-icons.svg#spectrum"></use></svg></div>
+                        <div class="timeline-copy"><h3>Burrete</h3><p>Native molecular previews for macOS</p></div>
+                        <span>Product engineering</span>
+                    </article>
+                </div>
+            </section>
+
+            <section class="contact-section reveal" id="contact" aria-labelledby="contact-title">
+                <span class="section-badge">Contact</span>
+                <h2 id="contact-title">Get in Touch</h2>
+                <p>Want to discuss scientific ML, computational chemistry, or useful research software? Reach me through <a href="https://www.linkedin.com/in/nikolenko-sergei-/" target="_blank" rel="noreferrer">LinkedIn</a> or explore my work on <a href="https://github.com/SergeiNikolenko" target="_blank" rel="noreferrer">GitHub</a>.</p>
+            </section>
+        </main>
+    </div>
+
+    <nav class="dock" aria-label="Quick navigation" data-dock>
+        <a class="dock-item" href="#home" aria-label="Home" data-tooltip="Home"><span class="dock-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/img/icons/ui-icons.svg#home"></use></svg></span></a>
+        <a class="dock-item" href="#about" aria-label="About" data-tooltip="About"><span class="dock-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/img/icons/ui-icons.svg#notebook"></use></svg></span></a>
+        <span class="dock-separator" aria-hidden="true"></span>
+        <a class="dock-item" href="https://github.com/SergeiNikolenko" target="_blank" rel="noreferrer" aria-label="GitHub" data-tooltip="GitHub"><span class="dock-icon"><img src="assets/img/icons/github.svg" alt="" width="20" height="20"></span></a>
+        <a class="dock-item" href="https://www.linkedin.com/in/nikolenko-sergei-/" target="_blank" rel="noreferrer" aria-label="LinkedIn" data-tooltip="LinkedIn"><span class="dock-icon"><img src="assets/img/icons/in.svg" alt="" width="20" height="20"></span></a>
+        <a class="dock-item" href="https://orcid.org/0000-0003-1150-9390" target="_blank" rel="noreferrer" aria-label="ORCID" data-tooltip="ORCID"><span class="dock-icon"><img src="assets/img/icons/ORCID.png" alt="" width="20" height="20"></span></a>
+        <a class="dock-item" href="https://scholar.google.com/citations?user=AcppxmcAAAAJ&amp;hl=en" target="_blank" rel="noreferrer" aria-label="Google Scholar" data-tooltip="Scholar"><span class="dock-icon"><img src="assets/img/icons/google-scholar.svg" alt="" width="20" height="20"></span></a>
+        <span class="dock-separator" aria-hidden="true"></span>
+        <button class="dock-item theme-toggle" type="button" aria-label="Toggle theme" data-tooltip="Theme" data-theme-toggle><span class="dock-icon"><svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="assets/img/icons/ui-icons.svg#sun"></use></svg><svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="assets/img/icons/ui-icons.svg#moon"></use></svg></span></button>
+    </nav>
 
     <script src="assets/scripts/site.js"></script>
 </body>
